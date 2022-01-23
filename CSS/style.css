@@ -76,6 +76,10 @@ section {
     padding: 5% 7.5% !important;
 }
 
+.py-10 {
+    padding: 6% 5% !important;
+}
+
 .home {
     position: relative;
     width: 100%;
@@ -234,8 +238,9 @@ section {
 }
 
 .card {
-    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.25) !important;
+    box-shadow: 1px 2px 8px 2px rgba(0, 0, 0, 0.5) !important;
     transition: 0.5s;
+    border-radius: 0.5rem !important;
 }
 
 .card:hover {
@@ -250,12 +255,101 @@ i.fas:hover {
     color: red;
 }
 
-.home .content a {
+.hovereditem {
     transition: 0.5s;
 }
 
-.home .content a:hover {
+.hovereditem:hover {
+    transform: scale(1.2) !important;
+}
+
+div.content-click article span.h2 {
+    font-size: 2.5rem !important;
+}
+
+div.content-click article span.fw-bold {
+    font-size: 1.25rem !important;
+}
+
+div.content-click article span {
+    font-size: 1rem;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+div.paralax {
+    background-image: url(../Images/city_4x.png);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/img3.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.button {
+    border-radius: 3rem !important;
+}
+
+.icon {
+    color: white;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    color: red !important;
     transform: scale(1.2);
+}
+
+div.paralax2 span,
+div.paralax2 .icon {
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+div.paralax2 h1 {
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.btn-shadow {
+    box-shadow: 1px 2px 8px 2px rgba(0, 0, 0, 0.5) !important;
+    transition: 0.5s;
+}
+
+.btn-shadow:hover {
+    transform: scale(1.2);
+}
+
+.icon_black {
+    color: black;
+    transition: 0.5s;
+}
+
+.icon_black:hover {
+    color: red !important;
+    transform: scale(1.2);
+}
+
+.hovereditem_red {
+    color: white;
+    transition: 0.5s;
+}
+
+.hovereditem_red:hover {
+    color: red !important;
 }
 
 @keyframes scroll1 {
@@ -377,5 +471,167 @@ i.fas:hover {
     }
     header {
         padding: 15px 200px;
+    }
+}
+
+@media (min-width:1590px) {
+    .card01 {
+        height: 320px;
+    }
+}
+
+@media (max-width:1590px) {
+    .card01 {
+        height: 320px;
+    }
+}
+
+@media (max-width:1388px) {
+    .card01 {
+        height: 355px;
+    }
+}
+
+@media (max-width:1166px) {
+    .card01 {
+        height: 365px;
+    }
+}
+
+@media (max-width:1154px) {
+    .card01 {
+        height: 385px;
+    }
+}
+
+@media (max-width:1139px) {
+    .card01 {
+        height: 415px;
+    }
+}
+
+@media (max-width:1097px) {
+    .card01 {
+        height: 450px;
+    }
+}
+
+@media (max-width:1088px) {
+    .card01 {
+        height: 475px;
+    }
+}
+
+@media (max-width:1014px) {
+    .card01 {
+        height: 490px;
+    }
+}
+
+@media (max-width:981px) {
+    .card01 {
+        height: 510px;
+    }
+}
+
+@media (max-width:955px) {
+    .card01 {
+        height: 535px;
+    }
+}
+
+@media (max-width:905px) {
+    .card01 {
+        height: 555px;
+    }
+}
+
+@media (max-width:785px) {
+    .card01 {
+        height: 575px;
+    }
+}
+
+@media (max-width:771px) {
+    .card01 {
+        height: 599px;
+    }
+}
+
+@media (max-width:767px) {
+    .card01 {
+        height: 320px;
+    }
+}
+
+@media (max-width:432px) {
+    .card01 {
+        height: 350px;
+    }
+}
+
+@media (max-width:360px) {
+    .card01 {
+        height: 370px;
+    }
+}
+
+@media (max-width:346px) {
+    .card01 {
+        height: 400px;
+    }
+}
+
+@media (max-width:343px) {
+    .card01 {
+        height: 425px;
+    }
+}
+
+@media (max-width:319px) {
+    .card01 {
+        height: 445px;
+    }
+}
+
+@media (max-width:318px) {
+    .card01 {
+        height: 470px;
+    }
+}
+
+@media (max-width:308px) {
+    .card01 {
+        height: 500px;
+    }
+}
+
+@media (max-width:299px) {
+    .card01 {
+        height: 520px;
+    }
+}
+
+@media (max-width:283px) {
+    .card01 {
+        height: 550px;
+    }
+}
+
+@media (max-width:242px) {
+    .card01 {
+        height: 570px;
+    }
+}
+
+@media (max-width:238px) {
+    .card01 {
+        height: 590px;
+    }
+}
+
+@media (max-width:232px) {
+    .card01 {
+        height: 615px;
     }
 }
