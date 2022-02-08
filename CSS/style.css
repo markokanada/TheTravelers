@@ -426,6 +426,24 @@ div.paralax2 h1 {
     }
 }
 
+@media (min-width:772px) {
+    div.paralax2 div span {
+        font-size: 0.7rem !important;
+    }
+}
+
+@media (min-width:980px) {
+    div.paralax2 div span {
+        font-size: 1rem !important;
+    }
+}
+
+@media (min-width:1204px) {
+    div.paralax2 div span {
+        font-size: 1.25rem !important;
+    }
+}
+
 @media (min-width:768px) {
     .brand {
         font-size: calc(0.7rem + .9vw);
