@@ -80,6 +80,10 @@ section {
     padding: 6% 5% !important;
 }
 
+.py-20 {
+    padding: 12% 10% !important;
+}
+
 .home {
     position: relative;
     width: 100%;
@@ -368,6 +372,46 @@ div.paralax4 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+div.paralax5 {
+    background-image: url(../Images/img16.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax6 {
+    background-image: url(../Images/img19.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax7 {
+    background-image: url(../Images/img22.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax8 {
+    background-image: url(../Images/img25.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.built-with-calconic {
+    display: none !important;
 }
 
 #arrow {
