@@ -455,6 +455,65 @@ div.paralax13 {
     background-size: cover;
 }
 
+.gallery {
+    min-height: 100vh;
+    background: #eee;
+    padding-bottom: 100px;
+}
+
+.gallery .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    list-style: none;
+}
+
+.gallery .controls .buttons {
+    height: 40px;
+    width: 140px;
+    background: #fff;
+    color: #666;
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    text-align: center;
+}
+
+.gallery .controls .buttons.active {
+    background: royalblue;
+    color: #fff;
+}
+
+.gallery .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery .image-container .image {
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border: 15px solid #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    margin: 20px;
+}
+
+.gallery .image-container .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery .image-container .image:hover img {
+    transform: scale(1.4);
+}
+
 div.paralax14 {
     background-image: url(../Images/img44.jpg);
     min-height: 75%;
@@ -804,5 +863,23 @@ div.built-with-calconic {
 @media (max-width:232px) {
     .card01 {
         height: 615px;
+    }
+}
+
+@media (min-width:1600px) {
+    .card02 {
+        height: 900px;
+    }
+}
+
+@media (max-width:1600px) {
+    .card02 {
+        height: 900px;
+    }
+}
+
+@media (max-width:326px) {
+    .card02 {
+        height: 1000px;
     }
 }
