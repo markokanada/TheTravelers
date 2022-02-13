@@ -410,6 +410,69 @@ div.paralax8 {
     background-size: cover;
 }
 
+div.paralax9 {
+    background-image: url(../Images/img39.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax10 {
+    background-image: url(../Images/img40.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax11 {
+    background-image: url(../Images/img41.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax12 {
+    background-image: url(../Images/img42.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax13 {
+    background-image: url(../Images/img43.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax14 {
+    background-image: url(../Images/img44.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax15 {
+    background-image: url(../Images/img45.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 div.built-with-calconic {
     display: none !important;
 }
