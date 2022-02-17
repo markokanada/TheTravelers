@@ -472,6 +472,24 @@ div.paralax13 {
     background-size: cover;
 }
 
+div.paralax99 {
+    background-image: url(../Images/nagynic1.jpg);
+    min-height: 85%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax98 {
+    background-image: url(../Images/nagynic2.jpg);
+    min-height: 85%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .gallery {
     min-height: 100vh;
     background: #eee;
@@ -945,5 +963,56 @@ div.built-with-calconic {
 @media (max-width:326px) {
     .card02 {
         height: 1000px;
+    }
+}
+
+
+/*
+@media (min-width:1464px) {
+    .card03 {
+        height: 300px;
+    }
+}
+*/
+
+@media (max-width:1464px) {
+    .card03 {
+        height: 300px;
+    }
+}
+
+@media (max-width:484px) {
+    .card03 {
+        height: 325px;
+    }
+}
+
+@media (max-width:397px) {
+    .card03 {
+        height: 340px;
+    }
+}
+
+@media (max-width:378px) {
+    .card03 {
+        height: 365px;
+    }
+}
+
+@media (max-width:371px) {
+    .card03 {
+        height: 385px;
+    }
+}
+
+@media (max-width:318px) {
+    .card03 {
+        height: 400px;
+    }
+}
+
+@media (max-width:317px) {
+    .card-btn {
+        font-size: 95%;
     }
 }
