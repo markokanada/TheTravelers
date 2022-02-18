@@ -490,6 +490,15 @@ div.paralax98 {
     background-size: cover;
 }
 
+div.paralax97 {
+    background-image: url(../Images/img_busz.jpg);
+    min-height: 85%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .gallery {
     min-height: 100vh;
     background: #eee;
@@ -620,6 +629,31 @@ div.built-with-calconic {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
+}
+
+.rounded {
+    border-radius: 100% !important;
+    box-shadow: 1px 2px 8px 2px rgba(0, 0, 0, 0.5) !important;
+}
+
+.img-rounded {
+    border-radius: 5% !important;
+}
+
+.btn-anime-in {
+    animation-name: vibein;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes vibein {
+    from {
+        background-color: #2696E9;
+    }
+    to {
+        background-color: #fff;
+    }
 }
 
 @-webkit-keyframes fadeIn {
