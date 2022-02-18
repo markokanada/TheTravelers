@@ -472,6 +472,87 @@ div.paralax13 {
     background-size: cover;
 }
 
+div.paralax23 {
+    background-image: url(../Images/img52.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax24 {
+    background-image: url(../Images/img53.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax16 {
+    background-image: url(../Images/img54.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax17 {
+    background-image: url(../Images/img55.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax18 {
+    background-image: url(../Images/img57.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax19 {
+    background-image: url(../Images/img58.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax20 {
+    background-image: url(../Images/img59.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax21 {
+    background-image: url(../Images/img73.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.paralax22 {
+    background-image: url(../Images/img78.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 div.paralax99 {
     background-image: url(../Images/nagynic1.jpg);
     min-height: 85%;
