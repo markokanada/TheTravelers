@@ -20,7 +20,7 @@
     <title>TheTravelers - Ajánlataink</title>
 </head>
 
-<body>
+<body onload="sizing()">
 
     <header class="">
         <a href="#" class="brand text-decoration-none h1">TheTravelers</a>
@@ -118,7 +118,7 @@
             </div>
         </div>
         <div class="col-md-6 col-12 py-5 px-5 ">
-            <div class="card card02">
+            <div class="card " id="card02_a">
                 <img src="../Images/img14.png " alt=" " class="px-10 py-10 radius card-img-top ">
                 <div class="card-body ">
                     <h2 class="card-title text-center ">Bahamák pihentető csodái</h2>
@@ -230,6 +230,17 @@
         </div>
     </div>
     <script src="../JS/main.js "></script>
+    <script>
+        function sizing() {
+            const height = document.getElementById('card02_a').offsetHeight;
+            const cards = document.getElementsByClassName('card02')
+            console.log(height, cards)
+            for (let i = 0; i < cards.length; i++) {
+                cards[i].style.height = height + 'px';
+            }
+            document.getElementById('card02_a').style.height = height + 'px';
+        }
+    </script>
 
 </body>
 

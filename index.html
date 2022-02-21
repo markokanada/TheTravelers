@@ -20,7 +20,7 @@
     <title>TheTravelers</title>
 </head>
 
-<body>
+<body onload="sizing()">
     <header class="">
         <a href="#" class="brand text-decoration-none h1">TheTravelers</a>
         <div class="menu-btn"></div>
@@ -139,7 +139,7 @@
 
             <div class="col-md-4 col-12 px-4 md-mt-0 my-4">
                 <a href="HTML/foglalas.html" class="text-decoration-none">
-                    <div class="card px-4 card01">
+                    <div class="card px-4" id="card01_a">
                         <i class="fas fa-laptop text-center fa-5x pt-5"></i>
                         <div class="card-body">
                             <p class="h3 card-title text-center text-black">Könnyű foglalás</p>
@@ -264,6 +264,17 @@
         </div>
     </div>
     <script src="JS/main.js"></script>
+    <script>
+        function sizing() {
+            const height = document.getElementById('card01_a').offsetHeight;
+            const cards = document.getElementsByClassName('card01')
+            console.log(height, cards)
+            for (let i = 0; i < cards.length; i++) {
+                cards[i].style.height = height + 'px';
+            }
+            document.getElementById('card01_a').style.height = height + 'px';
+        }
+    </script>
 </body>
 
 </html>

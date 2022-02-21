@@ -20,7 +20,7 @@
     <title>TheTravelers - Rólunk</title>
 </head>
 
-<body>
+<body onload="sizing()">
     <header class="">
         <a href="#" class="brand text-decoration-none h1">TheTravelers</a>
         <div class="menu-btn"></div>
@@ -42,9 +42,8 @@
         </div>
         <div class="content active">
             <h1 class=" fw-bold">Üdvözlünk a
-                <span class="text-danger">TheTravelers</span> Amerikai utazás oldalán!<br></h1>
-            <p>Egy utazás azok számára, akik nem riadnak vissza a természettől! Sőt, szeretnek közel kerülni hozzá, egy életre szóló kalandra vágyik a szemkápráztató tájakon, itt a helye! Az élete során legalább egyszer el kell jutnia a Niagara vízeséshez,miért
-                ne most tenné?</p>
+                <span class="text-danger">TheTravelers</span> tagjait bemutató oldalán!<br></h1>
+            <p>Ezen az oldalon megismerhet minket az az a The Travelers tagjait. Reméljük tetszik Önnek irodánk és minket választ utazása lefoglalásához, hogy mindannyian jól érezhessük magunkat.</p>
             <a class="text-decoration-none hovereditem" href="#rolunk">Tovább olvasok</a>
         </div>
         <div class="content-icons">
@@ -88,32 +87,33 @@
         <h1 class="text-center">Hogy kik vagyunk mi?</h1>
         <div class="row mt-4">
 
-            <div class="col-xxl-3 col-md-6 col-12 px-4 py-3 text-center">
-                <div class="card">
+            <div class="col-xxl-3 col-md-6 col-12 px-4 py-5 text-center">
+                <div class="card card04">
                     <div class="card-body">
                         <img src="../Images/img50.jpg" class="rounded img-fluid" alt="">
-                        <p class="h3 card-title text-center text-black">Buborék Márkó</p>
+                        <p class="h3 card-title text-center text-black pt-3">Buborék Márkó</p>
                         <p class="h5 card-subtitle text-muted text-center">Cég vezérigazgató</p>
                         <p class="text-justify">Buborék Márkó vagyok, jelenleg 16 éves. A BMSZC Neumann János Informatikai Technikum tanulója vagyok, azért a Bahamákra esett a választásom, mert mindig is vágytam egy teljesen pihenéssel töltött nyaralásra a tengeren túlon, a
                             tökéletes kikapcsolódás jelképe számomra a Bahamák. Szeretnék egyszer eljutni oda, épp ezért is érdekelt a téma, hogy minél jobban kidolgozzam, akár magamnak is.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xxl-3 col-md-6 col-12 px-4 py-3 text-center">
-                <div class="card">
+            <div class="col-xxl-3 col-md-6 col-12 px-4 py-5 text-center">
+                <div class="card card04">
                     <div class="card-body">
                         <img src="../Images/img49.jpg" class="rounded img-fluid" alt="">
-                        <p class="h3 card-title text-center text-black">Csóka Márton</p>
+                        <p class="h3 card-title text-center text-black pt-3">Csóka Márton</p>
                         <p class="h5 card-subtitle text-muted text-center">Cég vezérigazgató</p>
-                        <p class="text-justify"></p>
+                        <p class="text-justify">A nevem Csóka Márton, mint fent olvashattátok. 2005 januárjában születtem Budapesten. 2010-ben költöztünk ki Kerepesre. Szeretek focizni, több éve klub szinten játszok, de mielőtt focizni kezdtem, kipróbáltam magam vízilabdában
+                            és kézilabdában is. A labdasportok mellett szeretem a Forma-1-et és a Ferrarit.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xxl-3 col-md-6 col-12 px-4 py-3 text-center">
-                <div class="card">
+            <div class="col-xxl-3 col-md-6 col-12 px-4 py-5 text-center">
+                <div class="card card04">
                     <div class="card-body">
                         <img src="../Images/img48.jpg" class="rounded img-fluid" alt="">
-                        <p class="h3 card-title text-center text-black">Lukácsi Adrián</p>
+                        <p class="h3 card-title text-center text-black pt-3">Lukácsi Adrián</p>
                         <p class="h5 card-subtitle text-muted text-center">Cég al-elnök</p>
                         <p class="text-justify">Lukácsi Adrián vagyok 16 éves. Mindig is érdekelt az olasz kultúra ezért is választottam ennek az utazásnak megtervezését, és kigondolását. Emellett szeretnék egyszer a Toszkánái régióba is eljutni, mert lenyűgözőnek és gyönyörűnek
                             találom.
@@ -121,11 +121,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xxl-3 col-md-6 col-12 px-4 py-3 text-center">
-                <div class="card">
+            <div class="col-xxl-3 col-md-6 col-12 px-4 py-5 text-center">
+                <div class="card" id="card04_a">
                     <div class="card-body">
                         <img src="../Images/img47.png" class="rounded img-fluid" alt="">
-                        <p class="h3 card-title text-center text-black">Szokol Attila</p>
+                        <p class="h3 card-title text-center text-black pt-3">Szokol Attila</p>
                         <p class="h5 card-subtitle text-muted text-center">Cég al-elnök</p>
                         <p class="text-justify">Az én nevem Szokol Attila, nem rég töltöttem be a tizenhatodik életévemet és jelenleg a BMSZC Neumann János Informatikai Technikum tanulója vagyok. Azért Amerikát választottam az utazás céljának, és azért ilyen körülmények között,
                             mert mindig is vágytam a szabadságra, a kalandokra és az életre szóló élményekre. Emellett mindig vonzott a természet és az ott történő túrázás, és szeretem figyelembe venni azt, hogy mennyire káros a környezetemnek az, amit
@@ -202,7 +202,17 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="../JS/main.js "></script>
-
+    <script>
+        function sizing() {
+            const height = document.getElementById('card04_a').offsetHeight;
+            const cards = document.getElementsByClassName('card04')
+            console.log(height, cards)
+            for (let i = 0; i < cards.length; i++) {
+                cards[i].style.height = height + 'px';
+            }
+            document.getElementById('card04_a').style.height = height + 'px';
+        }
+    </script>
 </body>
 
 </html>

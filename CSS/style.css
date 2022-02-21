@@ -580,6 +580,15 @@ div.paralax97 {
     background-size: cover;
 }
 
+div.paralax96 {
+    background-image: url(../Images/img79.jpg);
+    min-height: 85%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .gallery {
     min-height: 100vh;
     background: #eee;
@@ -726,6 +735,11 @@ div.built-with-calconic {
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+
+.btn-row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
 @keyframes vibein {
@@ -901,6 +915,14 @@ div.built-with-calconic {
     }
 }
 
+@media (max-width:997px) {
+    .btn-vis {
+        visibility: hidden;
+    }
+}
+
+
+/*
 @media (min-width:1590px) {
     .card01 {
         height: 320px;
@@ -1065,7 +1087,7 @@ div.built-with-calconic {
 
 @media (min-width:1600px) {
     .card02 {
-        height: 900px;
+        height: 100%;
     }
 }
 
@@ -1082,13 +1104,13 @@ div.built-with-calconic {
 }
 
 
-/*
+
 @media (min-width:1464px) {
     .card03 {
         height: 300px;
     }
 }
-*/
+
 
 @media (max-width:1464px) {
     .card03 {
@@ -1125,6 +1147,8 @@ div.built-with-calconic {
         height: 400px;
     }
 }
+
+*/
 
 @media (max-width:317px) {
     .card-btn {
