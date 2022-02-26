@@ -200,6 +200,7 @@ section {
     position: absolute;
     width: 100%;
     clip-path: circle(0% at 0 50%);
+    filter: brightness(60%);
 }
 
 .video-slide.active {
@@ -371,6 +372,15 @@ div.paralax2 h1 {
 
 .hovereditem_red:hover {
     color: red !important;
+}
+
+.hovereditem_orange {
+    color: white;
+    transition: 0.5s;
+}
+
+.hovereditem_orange:hover {
+    color: orange !important;
 }
 
 div.paralax3 {
@@ -740,6 +750,10 @@ div.built-with-calconic {
 .btn-row {
     margin-left: 0px !important;
     margin-right: 0px !important;
+}
+
+header a {
+    -webkit-text-stroke: black;
 }
 
 @keyframes vibein {

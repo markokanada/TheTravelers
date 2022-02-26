@@ -47,7 +47,7 @@
                 <span class="text-danger">TheTravelers</span> Amerikai utazás oldalán!<br></h1>
             <p>Egy utazás azok számára, akik nem riadnak vissza a természettől! Sőt, szeretnek közel kerülni hozzá, egy életre szóló kalandra vágyik a szemkápráztató tájakon, itt a helye! Az élete során legalább egyszer el kell jutnia a Niagara vízeséshez,miért
                 ne most tenné?</p>
-            <a class="text-decoration-none hovereditem" href="#utazasok">Tovább olvasok</a>
+            <a class="text-decoration-none hovereditem fw-bold" href="#utazasok">Tovább olvasok</a>
         </div>
         <div class="content-icons">
             <a href="../index.html" title="Főoldal"><i class="fas fa-home"></i></a>
@@ -459,7 +459,7 @@
         <div class="container-fluid bg-primary py-5 ">
             <div class="row ">
                 <div class="col-md-4 col-12 my-auto ">
-                    <span class="h5 hovereditem_red text-md-start text-center ">&copy;Copyright&nbsp;2022&nbsp;TheTravelers. All&nbsp;Rights&nbsp;Reserved.</span>
+                    <span class="h5 hovereditem_orange text-md-start text-center ">&copy;Copyright&nbsp;2022&nbsp;TheTravelers. All&nbsp;Rights&nbsp;Reserved.</span>
                 </div>
                 <div class="col-md-4 col-12 text-center my-auto ">
                     <span class="h3 text-white text-center "><script src ="https://form.jotform.com/static/feedback2.js" type="text/javascript"></script><script type="text/javascript">
@@ -475,7 +475,7 @@
                           openOnLoad: false
                         });
                     </script>
-                      <a class="lightbox-220483416302042 hovereditem_red text-decoration-none" style="margin-top: 16px">
+                      <a class="lightbox-220483416302042 hovereditem_orange text-decoration-none" style="margin-top: 16px">
                         Impresszum
                       </a></span>
                 </div>
@@ -483,8 +483,8 @@
                     <div class="row text-md-end text-center ">
                         <div class="col-3 d-md-block d-none"></div>
                         <div class="col-3 d-md-block d-none"></div>
-                        <div class="col-3 "><a href="https://www.facebook.com/The-Travelers-106396701951285" target="_blank" class="text-decoration-none"><i class="fab fa-facebook fa-3x icon text-center "></i></a></div>
-                        <div class="col-3 "><a href="https://www.youtube.com/channel/UCz7G1ULbMCDCVS4uWXelGYw" target="_blank" class="text-decoration-none"><i class="fab fa-youtube fa-3x icon text-center "></i></a></div>
+                        <div class="col-3 "><a href="https://www.facebook.com/The-Travelers-106396701951285" target="_blank" class="text-decoration-none"><i class="fab fa-facebook fa-3x icon text-center hovereditem_orange"></i></a></div>
+                        <div class="col-3 "><a href="https://www.youtube.com/channel/UCz7G1ULbMCDCVS4uWXelGYw" target="_blank" class="text-decoration-none"><i class="fab fa-youtube fa-3x icon text-center hovereditem_orange"></i></a></div>
                     </div>
                 </div>
             </div>
@@ -541,7 +541,7 @@
             let fromRate = currency.rates[resultFrom];
             let toRate = currency.rates[resultTo];
             finalValue.innerHTML =
-                ((toRate / fromRate) * searchValue).toFixed(2);
+                ((toRate / fromRate) * searchValue).toFixed(2) + resultTo;
             finalAmount.style.display = "block";
         }
 
